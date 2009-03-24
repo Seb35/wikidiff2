@@ -1,0 +1,7 @@
+wikidiff2 (0.0.1+svn48764-1) unstable; urgency=low
+
+  * Initial packaging.
+  Closes: #479057
+
+ -- Romain Beauxis <toots@rastageeks.org>  Tue, 24 Mar 2009 23:25:07 +0100
+
