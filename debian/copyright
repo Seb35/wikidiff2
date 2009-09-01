@@ -5,7 +5,7 @@ It was downloaded from http://www.mediawiki.org/wiki/Extension:Wikidiff2
 
 Upstream Author: Tim Starling <tstarling@wikimedia.org>
 
-Copyright (C) 2006 by Tim Starling 
+Copyright © 2006 by Tim Starling 
 
 License:
 
@@ -25,5 +25,5 @@ License:
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2009, Romain Beauxis <toots@rastageeks.org> and
+The Debian packaging is © 2009, Romain Beauxis <toots@rastageeks.org> and
 is licensed under the GPL, see above.

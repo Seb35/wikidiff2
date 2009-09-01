@@ -3,9 +3,9 @@ Section: web
 Priority: optional
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Uploaders: Romain Beauxis <toots@rastageeks.org>
-Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5), php5-dev, swig
+Build-Depends: cdbs (>= 0.4.53), debhelper (>= 7.0.1), quilt, patchutils (>= 0.2.25), php5-dev, swig
 Homepage: http://www.mediawiki.org/wiki/Extension:Wikidiff2
-Standards-Version: 3.8.1
+Standards-Version: 3.8.3
 
 Package: php-wikidiff2
 Architecture: any

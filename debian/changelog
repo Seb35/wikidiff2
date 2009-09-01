@@ -1,3 +1,13 @@
+wikidiff2 (0.0.1+svn55737-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fixed FTBFS.
+  Closes: #543113 
+  * Bumped standards-version to 3.8.3
+  * Bumped compat to 7
+
+ -- Romain Beauxis <toots@rastageeks.org>  Tue, 01 Sep 2009 18:14:30 -0500
+
 wikidiff2 (0.0.1+svn48764-1) unstable; urgency=low
 
   * Initial packaging.

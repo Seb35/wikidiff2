@@ -5,7 +5,7 @@ Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.
 Uploaders: Romain Beauxis <toots@rastageeks.org>
 Build-Depends: @cdbs@, php5-dev, swig
 Homepage: http://www.mediawiki.org/wiki/Extension:Wikidiff2
-Standards-Version: 3.8.1
+Standards-Version: 3.8.3
 
 Package: php-wikidiff2
 Architecture: any
