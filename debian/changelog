@@ -1,3 +1,10 @@
+wikidiff2 (0.0.1+svn55737-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Add missing dependency on phpapi-* (Closes: #566290)
+
+ -- Stefano Zacchiroli <zack@debian.org>  Mon, 08 Feb 2010 15:58:03 +0100
+
 wikidiff2 (0.0.1+svn55737-1) unstable; urgency=low
 
   * New upstream release.

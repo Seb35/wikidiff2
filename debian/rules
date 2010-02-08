@@ -9,4 +9,7 @@ include /usr/share/cdbs/1/class/makefile.mk
 # Then check manually if everything's ok
 
 DEB_MAKE_INSTALL_TARGET := install INSTALL_TARGET=$(CURDIR)/debian/tmp/
+PKG = php-wikidiff2
 
+binary-install/$(PKG)::
+	echo "php:Depends=phpapi-$(shell php-config5 --phpapi)" >> debian/$(PKG).substvars

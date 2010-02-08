@@ -9,7 +9,7 @@ Standards-Version: 3.8.3
 
 Package: php-wikidiff2
 Architecture: any
-Depends: php5 | php5-cli, ${misc:Depends}, ${shlibs:Depends} 
+Depends: php5 | php5-cli, ${misc:Depends}, ${shlibs:Depends}, ${php:Depends}
 Recommends: mediawiki
 Description: external diff engine for mediawiki
  Wikidiff2 is PHP 5 module providing external diff 
