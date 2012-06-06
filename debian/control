@@ -2,7 +2,7 @@ Source: wikidiff2
 Section: web
 Priority: optional
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
-Uploaders: Romain Beauxis <toots@rastageeks.org>
+Uploaders: Romain Beauxis <toots@rastageeks.org>, Jonathan Wiltshire <jmw@debian.org>
 Build-Depends: debhelper (>= 7.0.50), php5-dev, libthai-dev, pkg-config
 Homepage: http://www.mediawiki.org/wiki/Extension:Wikidiff2
 Standards-Version: 3.8.3
