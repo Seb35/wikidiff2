@@ -20,5 +20,5 @@ override_dh_auto_install:
 	INSTALL_ROOT=$(CURDIR)/debian/php-wikidiff2 make install
 
 override_dh_gencontrol:
-	echo "php:Depends=phpapi-$(php-config5 --phpapi)" > debian/substvars
+	echo "php:Depends=phpapi-$(shell php-config5 --phpapi)" >> debian/php-wikidiff2.substvars
 	dh_gencontrol
