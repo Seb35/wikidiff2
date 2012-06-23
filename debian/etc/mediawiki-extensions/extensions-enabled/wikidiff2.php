@@ -1,0 +1,1 @@
+../extensions-available/wikidiff2.php
