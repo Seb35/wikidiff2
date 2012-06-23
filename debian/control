@@ -1,5 +1,5 @@
 Source: wikidiff2
-Section: web
+Section: php
 Priority: optional
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Uploaders: Romain Beauxis <toots@rastageeks.org>, Jonathan Wiltshire <jmw@debian.org>
