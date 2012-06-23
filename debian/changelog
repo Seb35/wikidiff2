@@ -1,3 +1,22 @@
+wikidiff2 (0.0.1+svn109581-1) unstable; urgency=low
+
+  * New upstream snapshot
+  * Source format 3.0 (quilt)
+  * New patch so-location.patch to set correct extension location
+  * Remove fix_543113.patch (no longer applicable)
+  * Add me to uploaders
+  * Use debhelper 9 to get build hardening flags
+  * Remove redundant debian/conffiles
+  * Remove remaining CDBS logic
+  * Export dependency on phpapi
+  * Don't overwrite CXXFLAGS in debian/rules
+  * Move configuration install logic into debian/dirs and debian/install
+  * Add debian/gbp.conf and ignore it in debian/source/local-options
+  * Standards version 3.9.3 (no changes)
+  * Install configuration by default (Closes: #594517)
+
+ -- Jonathan Wiltshire <jmw@debian.org>  Wed, 20 Jun 2012 19:04:43 +0100
+
 wikidiff2 (0.0.1+svn55737-1.1) unstable; urgency=low
 
   * Non-maintainer upload.
