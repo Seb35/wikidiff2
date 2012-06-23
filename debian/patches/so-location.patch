@@ -1,0 +1,10 @@
+Description: fix the location of the extension in wikidiff2.ini
+Author: Jonathan Wiltshire <jmw@debian.org>
+Forwarded: not-needed
+Last-Update: 2012-06-23
+
+--- wikidiff2-0.0.1+svn109581.orig/wikidiff2.ini
++++ wikidiff2-0.0.1+svn109581/wikidiff2.ini
+@@ -1 +1 @@
+-extension=php_wikidiff2.so
++extension=wikidiff2.so
