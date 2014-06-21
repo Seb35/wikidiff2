@@ -1,2 +1,2 @@
-wikidiff2.ini 	etc/php5/conf.d
+wikidiff2.ini 	etc/php5/mods-available
 debian/etc/mediawiki-extensions	etc
