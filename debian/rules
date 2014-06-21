@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-# The PHP header files are not designed to be run with C++, they hit this 
+# The PHP header files are not designed to be run with C++, they hit this
 # warning a lot.
 CXXFLAGS+=-Wno-write-strings
 
