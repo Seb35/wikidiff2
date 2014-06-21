@@ -1,3 +1,19 @@
+wikidiff2 (1.2+git03ea59f-1) unstable; urgency=medium
+
+  * Add Vcs-* fields to debian/control
+  * Update section to match override
+  * New upstream release
+  * Remove patch so-location.patch (integrated upstream)
+  * Enable tests (build-depend on php5-cli to run them)
+  * Use long PHP tags in wikidiff2.php (Closes: #716995) (LP: #1243119)
+  * Update INI installation location for PHP 5.5 (Closes: #725755)
+    (LP: #1243568)
+  * Standards version 3.9.5
+  * Update copyright information
+  * Install README to documentation
+
+ -- Jonathan Wiltshire <jmw@debian.org>  Sat, 21 Jun 2014 23:10:00 +0100
+
 wikidiff2 (0.0.1+svn109581-1) unstable; urgency=low
 
   * New upstream snapshot
