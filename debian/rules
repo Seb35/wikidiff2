@@ -15,6 +15,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- --with-php-config=/usr/bin/php-config
 
 override_dh_auto_test:
+	NO_INTERACTION=1 make test
 
 override_dh_auto_install:
 	INSTALL_ROOT=$(CURDIR)/debian/php-wikidiff2 make install
