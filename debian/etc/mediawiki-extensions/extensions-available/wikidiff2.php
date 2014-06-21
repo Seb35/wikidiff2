@@ -1,4 +1,4 @@
-<?
+<?php
 
 $wgExtensionCredits['wikidiff2'][] = array(
     'name' => 'Wikidiff2',
