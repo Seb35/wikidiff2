@@ -1,3 +1,11 @@
+wikidiff2 (1.2+git03ea59f-1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Changed dependencies from php5 to php7.0 (Closes: #821720)
+  * Fixed grammar in description (Closes: #763753)
+
+ -- Sébastien Beyou <seb35@seb35.fr>  Fri, 06 May 2016 08:19:20 +0200
+
 wikidiff2 (1.2+git03ea59f-1) unstable; urgency=medium
 
   * Add Vcs-* fields to debian/control

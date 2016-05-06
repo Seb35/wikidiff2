@@ -3,7 +3,7 @@ Section: php
 Priority: optional
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Uploaders: Romain Beauxis <toots@rastageeks.org>, Jonathan Wiltshire <jmw@debian.org>
-Build-Depends: debhelper (>= 9), php5-dev, libthai-dev, pkg-config, php5-cli
+Build-Depends: debhelper (>= 9), php7.0-dev, libthai-dev, pkg-config, php7.0-cli
 Homepage: http://www.mediawiki.org/wiki/Extension:Wikidiff2
 Standards-Version: 3.9.5
 Vcs-Git: git://anonscm.debian.org/collab-maint/wikidiff2.git
@@ -11,10 +11,10 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/wikidiff2.git
 
 Package: php-wikidiff2
 Architecture: any
-Depends: php5 | php5-cli, ${misc:Depends}, ${shlibs:Depends}, ${php:Depends}
+Depends: php7.0 | php7.0-cli, ${misc:Depends}, ${shlibs:Depends}, ${php:Depends}
 Recommends: mediawiki
 Description: external diff engine for mediawiki
- Wikidiff2 is PHP 5 module providing external diff 
+ Wikidiff2 is a PHP module providing external diff 
  engine for MediaWiki. It performs word-level 
  (space-delimited) diffs on general text, and 
  character-level diffs on text composed of characters 
